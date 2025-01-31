@@ -1,0 +1,18 @@
+@import "../abstracts/variables";
+
+body {
+  font-family: $font-primary;
+  font-size: $font-size-text;
+  color: $color-text;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: $font-size-title;
+  margin-bottom: $spacing-base;
+}
+
+h2 {
+  font-size: $font-size-subtitle;
+  margin-bottom: $spacing-base;
+}

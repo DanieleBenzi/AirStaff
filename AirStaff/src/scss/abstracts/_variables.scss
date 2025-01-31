@@ -1,0 +1,24 @@
+/* Font: Bricolage Grotesque (bold/regular).
+   Se è ospitato su un CDN, importalo altrove. Qui definisci solo la font-family. */
+
+$font-primary: "Bricolage Grotesque", sans-serif;
+
+/* Colori */
+$color-text: #000000;
+$color-cta: #3A78E6;
+$color-gradient-start: #3A78E6;
+$color-gradient-end: #D35B6F;
+
+/* Spaziatura */
+$spacing-base: 8px;
+
+/* Breakpoints */
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+/* Dimensioni testo */
+$font-size-title: 40px;    // titoli
+$font-size-subtitle: 25px; // secondari
+$font-size-text: 20px;     // testo

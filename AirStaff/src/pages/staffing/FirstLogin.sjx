@@ -1,0 +1,17 @@
+import React from "react";
+import "../../scss/pages/staffing/firstLogin.scss";
+
+function FirstLogin() {
+  return (
+    <div className="first-login-page">
+      <h2>Primo Accesso</h2>
+      <p>
+        Benvenuto su AirStaff. Questa schermata appare solo al primo login della
+        tua Staffing. Configura i dati necessari per iniziare...
+      </p>
+      {/* Aggiungi form e campi come da Figma */}
+    </div>
+  );
+}
+
+export default FirstLogin;

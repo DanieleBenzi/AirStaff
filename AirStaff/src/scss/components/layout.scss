@@ -1,0 +1,22 @@
+@import "../abstracts/variables";
+
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+
+  .layout-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    .layout-header {
+      padding: $spacing-base * 2;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .layout-main {
+      flex: 1;
+      padding: $spacing-base * 2;
+    }
+  }
+}
